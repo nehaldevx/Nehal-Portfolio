@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nehal — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <input type="checkbox" id="theme-toggle" class="theme-toggle-input">
+  <label for="theme-toggle" class="theme-toggle-label">◐ Switch theme</label>
+
+  <div class="page">
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header id="home">
+      <img src="Nehal.jpeg" alt="Photo of Nehal">
+      <p class="greeting">Hello, I'm</p>
+      <h1>Nehal S S</h1>
+      <p class="roles">Student &middot; Builder &middot; Leader</p>
+      <p class="intro">CS &amp; AI student at Scaler School of Technology, also pursuing a BS in Data Science &amp; Applications at IIT Madras, building tools around LLMs and developer workflows.</p>
+      <a href="#about" class="cta">Explore my journey</a>
+    </header>
+
+    <main>
+
+      <section id="about">
+        <h2>About</h2>
+        <p>I'm a first-year Computer Science and AI student at Scaler School of Technology in Bengaluru, currently exploring LLMs, agentic systems, and developer tooling.</p>
+        <p>Before this, I spent two years as School Captain and played district-level football, which taught me how to lead under pressure and work as part of a team, habits that carry directly into how I build software.</p>
+        <p>Competitive debating also sharpened how I think on my feet and argue a position clearly, a skill that matters just as much in a team project as it does on a stage.</p>
+        <p>I've co-founded a startup, which pushed me to think beyond just writing code, to actually building something people use. I also completed Anthropic's AI Fluency course for students, which shaped how I work with AI tools rather than just using them.</p>
+        <p>I like projects at the intersection of AI and real usability, and I'm always looking for the next thing to build and ship.</p>
+        <p>Debating sharpened how I think on my feet and argue a position clearly. Winning the English Olympiad twice and scoring C1 Advanced on EF SET reflect how much I care about communicating well, which matters as much in a team project as the code does.</p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>Java</li>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Git &amp; GitHub</li>
+          <li>AI &amp; LLMs</li>
+          <li>Leadership</li>
+          <li>Public Speaking</li>
+          <li>Problem Solving</li>
+        </ul>
+      </section>
+
+      <section id="achievements">
+        <h2>Achievements</h2>
+        <ul class="achievements-list">
+          <li>Completed Anthropic's AI Fluency course for students</li>
+          <li>Working on projects around LLM inference infrastructure and developer tooling</li>
+          <li>97% in Grade 10, with distinction</li>
+          <li>88.5 percentile in JEE</li>
+          <li>C1 Advanced at EF SET</li>
+          <li>Won the English Olympiad twice</li>
+          <li>School Captain for two consecutive years</li>
+          <li>District level Football Champion</li>
+          <li>Cluster level Cricketer</li>
+          <li>NCC 'A' Certificate</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Get in touch</h2>
+        <div class="contact-grid">
+
+          <div class="contact-info">
+            <p>Have an idea, an opportunity, or just want to say hi? Send me a message or find me on the links below.</p>
+            <ul class="contact-links">
+              <li><a href="mailto:nehalpersonal18@gmail.com">Email</a></li>
+              <li><a href="https://github.com/nehaldevx" target="_blank" rel="noopener">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/nehal18/" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><a href="https://codeforces.com/profile/nehal18" target="_blank" rel="noopener">Codeforces</a></li>
+              <li><a href="https://leetcode.com/u/nehal1826/" target="_blank" rel="noopener">LeetCode</a></li>
+            </ul>
+          </div>
+
+          <form class="contact-form" action="mailto:nehalpersonal18@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send message</button>
+          </form>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Nehal. Built with HTML &amp; CSS.</p>
+    </footer>
+
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
